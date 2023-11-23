@@ -1,6 +1,9 @@
 name: mac
 on: 
   workflow_dispatch:
+  watch:
+    types: started
+
 defaults:
   run:
     shell: bash
